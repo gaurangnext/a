@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace a
 {
+    // Ading comments just to see CI
     public class Program
     {
         public static void Main(string[] args)
