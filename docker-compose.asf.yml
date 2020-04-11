@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  a:
+    image: gaurangnext/repo1a:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+    ports:
+      - "6001:80"
+ 
