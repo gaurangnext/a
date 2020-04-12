@@ -27,9 +27,9 @@ namespace a.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Books> Get()
+        public IEnumerable<WeatherForecast> Get()
         {
-            /*
+            
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
@@ -38,9 +38,9 @@ namespace a.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
-            */
+            
 
-            return dbContext.Books.ToArray<Books>();
+            //return dbContext.Books.ToArray<Books>();
 
 
         }
